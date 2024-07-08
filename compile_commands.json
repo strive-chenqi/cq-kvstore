@@ -1,0 +1,27 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-I",
+      "/home/chenqi1/third/include",
+      "./src/main.cpp"
+    ],
+    "directory": "/home/chenqi1/cq-kvstore",
+    "file": "/home/chenqi1/cq-kvstore/src/main.cpp"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-I",
+      "/home/chenqi1/third/include",
+      "-o",
+      "111",
+      "./src/network/asio_client.cpp"
+    ],
+    "directory": "/home/chenqi1/cq-kvstore",
+    "file": "/home/chenqi1/cq-kvstore/src/network/asio_client.cpp",
+    "output": "/home/chenqi1/cq-kvstore/111"
+  }
+]
