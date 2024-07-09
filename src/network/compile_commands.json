@@ -1,0 +1,72 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-I",
+      "/home/chenqi1/third/include",
+      "-o",
+      "test.o",
+      "test.cpp"
+    ],
+    "directory": "/home/chenqi1/cq-kvstore/src/network",
+    "file": "/home/chenqi1/cq-kvstore/src/network/test.cpp",
+    "output": "/home/chenqi1/cq-kvstore/src/network/test.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-I",
+      "/home/chenqi1/third/include",
+      "-o",
+      "posix_network.o",
+      "posix_network.cpp"
+    ],
+    "directory": "/home/chenqi1/cq-kvstore/src/network",
+    "file": "/home/chenqi1/cq-kvstore/src/network/posix_network.cpp",
+    "output": "/home/chenqi1/cq-kvstore/src/network/posix_network.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-I",
+      "/home/chenqi1/third/include",
+      "-o",
+      "asio_network.o",
+      "asio_network.cpp"
+    ],
+    "directory": "/home/chenqi1/cq-kvstore/src/network",
+    "file": "/home/chenqi1/cq-kvstore/src/network/asio_network.cpp",
+    "output": "/home/chenqi1/cq-kvstore/src/network/asio_network.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-I",
+      "/home/chenqi1/third/include",
+      "-o",
+      "io_uring_network.o",
+      "io_uring_network.cpp"
+    ],
+    "directory": "/home/chenqi1/cq-kvstore/src/network",
+    "file": "/home/chenqi1/cq-kvstore/src/network/io_uring_network.cpp",
+    "output": "/home/chenqi1/cq-kvstore/src/network/io_uring_network.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-I",
+      "/home/chenqi1/third/include",
+      "-o",
+      "coroutine_network.o",
+      "coroutine_network.cpp"
+    ],
+    "directory": "/home/chenqi1/cq-kvstore/src/network",
+    "file": "/home/chenqi1/cq-kvstore/src/network/coroutine_network.cpp",
+    "output": "/home/chenqi1/cq-kvstore/src/network/coroutine_network.o"
+  }
+]
