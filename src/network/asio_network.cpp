@@ -10,7 +10,7 @@ void AsioNetwork::accept_handler(const boost::system::error_code &ec,
 
   cout << "Client:";
   cout << sock->remote_endpoint().address() << endl; //远端端口的地址
-  sock->async_write_some(buffer("hello asio"),boost::bind(&this_type::write_handler, this,boost::asio::placeholders::error)); //异步发送数据
+  sock->async_write_some(buffer("test qpstest qpstest qpstest qpstest qpstest qpstest qpstest qps"),boost::bind(&this_type::write_handler, this,boost::asio::placeholders::error)); //异步发送数据
 
   sock->async_read_some(buffer(m_data), boost::bind(&this_type::read_handler,this, boost::asio::placeholders::error,boost::asio::placeholders::bytes_transferred, sock));
 
