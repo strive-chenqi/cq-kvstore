@@ -1,0 +1,32 @@
+Determining if the strtod_l exist failed with the following output:
+Change Dir: /home/chenqi1/cq-kvstore/src/pool/mysql_pool/0voice/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ed125/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ed125.dir/build.make CMakeFiles/cmTC_ed125.dir/build
+gmake[1]: 进入目录“/home/chenqi1/cq-kvstore/src/pool/mysql_pool/0voice/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_ed125.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_ed125.dir/CheckSymbolExists.c.o -c /home/chenqi1/cq-kvstore/src/pool/mysql_pool/0voice/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/chenqi1/cq-kvstore/src/pool/mysql_pool/0voice/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/chenqi1/cq-kvstore/src/pool/mysql_pool/0voice/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘strtod_l’ undeclared (first use in this function); did you mean ‘strtoull’?
+    8 |   return ((int*)(&strtod_l))[argc];
+      |                   ^~~~~~~~
+      |                   strtoull
+/home/chenqi1/cq-kvstore/src/pool/mysql_pool/0voice/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+gmake[1]: *** [CMakeFiles/cmTC_ed125.dir/build.make:78：CMakeFiles/cmTC_ed125.dir/CheckSymbolExists.c.o] 错误 1
+gmake[1]: 离开目录“/home/chenqi1/cq-kvstore/src/pool/mysql_pool/0voice/CMakeFiles/CMakeTmp”
+gmake: *** [Makefile:127：cmTC_ed125/fast] 错误 2
+
+
+File /home/chenqi1/cq-kvstore/src/pool/mysql_pool/0voice/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strtod_l
+  return ((int*)(&strtod_l))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}

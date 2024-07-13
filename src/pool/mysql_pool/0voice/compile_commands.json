@@ -1,0 +1,298 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/c++",
+      "-I/home/chenqi1/cq-kvstore/src/pool/mysql_pool/0voice/fmt/include",
+      "-c",
+      "-o",
+      "CMakeFiles/fmt.dir/src/format.cc.o",
+      "/home/chenqi1/cq-kvstore/src/pool/mysql_pool/0voice/fmt/src/format.cc"
+    ],
+    "directory": "/home/chenqi1/cq-kvstore/src/pool/mysql_pool/0voice/fmt",
+    "file": "/home/chenqi1/cq-kvstore/src/pool/mysql_pool/0voice/fmt/src/format.cc",
+    "output": "/home/chenqi1/cq-kvstore/src/pool/mysql_pool/0voice/fmt/CMakeFiles/fmt.dir/src/format.cc.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/c++",
+      "-I/home/chenqi1/cq-kvstore/src/pool/mysql_pool/0voice/fmt/include",
+      "-c",
+      "-o",
+      "CMakeFiles/fmt.dir/src/os.cc.o",
+      "/home/chenqi1/cq-kvstore/src/pool/mysql_pool/0voice/fmt/src/os.cc"
+    ],
+    "directory": "/home/chenqi1/cq-kvstore/src/pool/mysql_pool/0voice/fmt",
+    "file": "/home/chenqi1/cq-kvstore/src/pool/mysql_pool/0voice/fmt/src/os.cc",
+    "output": "/home/chenqi1/cq-kvstore/src/pool/mysql_pool/0voice/fmt/CMakeFiles/fmt.dir/src/os.cc.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/c++",
+      "-I/home/chenqi1/cq-kvstore/src/pool/mysql_pool/0voice/dbimpl",
+      "-I/home/chenqi1/cq-kvstore/src/pool/mysql_pool/0voice/fmt/include",
+      "-I/usr/include/mysql",
+      "-c",
+      "-o",
+      "CMakeFiles/dbimpl.dir/AdhocStatement.cpp.o",
+      "/home/chenqi1/cq-kvstore/src/pool/mysql_pool/0voice/dbimpl/AdhocStatement.cpp"
+    ],
+    "directory": "/home/chenqi1/cq-kvstore/src/pool/mysql_pool/0voice/dbimpl",
+    "file": "/home/chenqi1/cq-kvstore/src/pool/mysql_pool/0voice/dbimpl/AdhocStatement.cpp",
+    "output": "/home/chenqi1/cq-kvstore/src/pool/mysql_pool/0voice/dbimpl/CMakeFiles/dbimpl.dir/AdhocStatement.cpp.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/c++",
+      "-I/home/chenqi1/cq-kvstore/src/pool/mysql_pool/0voice/dbimpl",
+      "-I/home/chenqi1/cq-kvstore/src/pool/mysql_pool/0voice/fmt/include",
+      "-I/usr/include/mysql",
+      "-c",
+      "-o",
+      "CMakeFiles/dbimpl.dir/PreparedStatement.cpp.o",
+      "/home/chenqi1/cq-kvstore/src/pool/mysql_pool/0voice/dbimpl/PreparedStatement.cpp"
+    ],
+    "directory": "/home/chenqi1/cq-kvstore/src/pool/mysql_pool/0voice/dbimpl",
+    "file": "/home/chenqi1/cq-kvstore/src/pool/mysql_pool/0voice/dbimpl/PreparedStatement.cpp",
+    "output": "/home/chenqi1/cq-kvstore/src/pool/mysql_pool/0voice/dbimpl/CMakeFiles/dbimpl.dir/PreparedStatement.cpp.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/c++",
+      "-I/home/chenqi1/cq-kvstore/src/pool/mysql_pool/0voice/dbimpl",
+      "-I/home/chenqi1/cq-kvstore/src/pool/mysql_pool/0voice/fmt/include",
+      "-I/usr/include/mysql",
+      "-c",
+      "-o",
+      "CMakeFiles/dbimpl.dir/DatabaseEnv.cpp.o",
+      "/home/chenqi1/cq-kvstore/src/pool/mysql_pool/0voice/dbimpl/DatabaseEnv.cpp"
+    ],
+    "directory": "/home/chenqi1/cq-kvstore/src/pool/mysql_pool/0voice/dbimpl",
+    "file": "/home/chenqi1/cq-kvstore/src/pool/mysql_pool/0voice/dbimpl/DatabaseEnv.cpp",
+    "output": "/home/chenqi1/cq-kvstore/src/pool/mysql_pool/0voice/dbimpl/CMakeFiles/dbimpl.dir/DatabaseEnv.cpp.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/c++",
+      "-I/home/chenqi1/cq-kvstore/src/pool/mysql_pool/0voice/dbimpl",
+      "-I/home/chenqi1/cq-kvstore/src/pool/mysql_pool/0voice/fmt/include",
+      "-I/usr/include/mysql",
+      "-c",
+      "-o",
+      "CMakeFiles/dbimpl.dir/DatabaseLoader.cpp.o",
+      "/home/chenqi1/cq-kvstore/src/pool/mysql_pool/0voice/dbimpl/DatabaseLoader.cpp"
+    ],
+    "directory": "/home/chenqi1/cq-kvstore/src/pool/mysql_pool/0voice/dbimpl",
+    "file": "/home/chenqi1/cq-kvstore/src/pool/mysql_pool/0voice/dbimpl/DatabaseLoader.cpp",
+    "output": "/home/chenqi1/cq-kvstore/src/pool/mysql_pool/0voice/dbimpl/CMakeFiles/dbimpl.dir/DatabaseLoader.cpp.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/c++",
+      "-I/home/chenqi1/cq-kvstore/src/pool/mysql_pool/0voice/dbimpl",
+      "-I/home/chenqi1/cq-kvstore/src/pool/mysql_pool/0voice/fmt/include",
+      "-I/usr/include/mysql",
+      "-c",
+      "-o",
+      "CMakeFiles/dbimpl.dir/DatabaseWorker.cpp.o",
+      "/home/chenqi1/cq-kvstore/src/pool/mysql_pool/0voice/dbimpl/DatabaseWorker.cpp"
+    ],
+    "directory": "/home/chenqi1/cq-kvstore/src/pool/mysql_pool/0voice/dbimpl",
+    "file": "/home/chenqi1/cq-kvstore/src/pool/mysql_pool/0voice/dbimpl/DatabaseWorker.cpp",
+    "output": "/home/chenqi1/cq-kvstore/src/pool/mysql_pool/0voice/dbimpl/CMakeFiles/dbimpl.dir/DatabaseWorker.cpp.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/c++",
+      "-I/home/chenqi1/cq-kvstore/src/pool/mysql_pool/0voice/dbimpl",
+      "-I/home/chenqi1/cq-kvstore/src/pool/mysql_pool/0voice/fmt/include",
+      "-I/usr/include/mysql",
+      "-c",
+      "-o",
+      "CMakeFiles/dbimpl.dir/DatabaseWorkerPool.cpp.o",
+      "/home/chenqi1/cq-kvstore/src/pool/mysql_pool/0voice/dbimpl/DatabaseWorkerPool.cpp"
+    ],
+    "directory": "/home/chenqi1/cq-kvstore/src/pool/mysql_pool/0voice/dbimpl",
+    "file": "/home/chenqi1/cq-kvstore/src/pool/mysql_pool/0voice/dbimpl/DatabaseWorkerPool.cpp",
+    "output": "/home/chenqi1/cq-kvstore/src/pool/mysql_pool/0voice/dbimpl/CMakeFiles/dbimpl.dir/DatabaseWorkerPool.cpp.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/c++",
+      "-I/home/chenqi1/cq-kvstore/src/pool/mysql_pool/0voice/dbimpl",
+      "-I/home/chenqi1/cq-kvstore/src/pool/mysql_pool/0voice/fmt/include",
+      "-I/usr/include/mysql",
+      "-c",
+      "-o",
+      "CMakeFiles/dbimpl.dir/Field.cpp.o",
+      "/home/chenqi1/cq-kvstore/src/pool/mysql_pool/0voice/dbimpl/Field.cpp"
+    ],
+    "directory": "/home/chenqi1/cq-kvstore/src/pool/mysql_pool/0voice/dbimpl",
+    "file": "/home/chenqi1/cq-kvstore/src/pool/mysql_pool/0voice/dbimpl/Field.cpp",
+    "output": "/home/chenqi1/cq-kvstore/src/pool/mysql_pool/0voice/dbimpl/CMakeFiles/dbimpl.dir/Field.cpp.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/c++",
+      "-I/home/chenqi1/cq-kvstore/src/pool/mysql_pool/0voice/dbimpl",
+      "-I/home/chenqi1/cq-kvstore/src/pool/mysql_pool/0voice/fmt/include",
+      "-I/usr/include/mysql",
+      "-c",
+      "-o",
+      "CMakeFiles/dbimpl.dir/MySQLConnection.cpp.o",
+      "/home/chenqi1/cq-kvstore/src/pool/mysql_pool/0voice/dbimpl/MySQLConnection.cpp"
+    ],
+    "directory": "/home/chenqi1/cq-kvstore/src/pool/mysql_pool/0voice/dbimpl",
+    "file": "/home/chenqi1/cq-kvstore/src/pool/mysql_pool/0voice/dbimpl/MySQLConnection.cpp",
+    "output": "/home/chenqi1/cq-kvstore/src/pool/mysql_pool/0voice/dbimpl/CMakeFiles/dbimpl.dir/MySQLConnection.cpp.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/c++",
+      "-I/home/chenqi1/cq-kvstore/src/pool/mysql_pool/0voice/dbimpl",
+      "-I/home/chenqi1/cq-kvstore/src/pool/mysql_pool/0voice/fmt/include",
+      "-I/usr/include/mysql",
+      "-c",
+      "-o",
+      "CMakeFiles/dbimpl.dir/MySQLPreparedStatement.cpp.o",
+      "/home/chenqi1/cq-kvstore/src/pool/mysql_pool/0voice/dbimpl/MySQLPreparedStatement.cpp"
+    ],
+    "directory": "/home/chenqi1/cq-kvstore/src/pool/mysql_pool/0voice/dbimpl",
+    "file": "/home/chenqi1/cq-kvstore/src/pool/mysql_pool/0voice/dbimpl/MySQLPreparedStatement.cpp",
+    "output": "/home/chenqi1/cq-kvstore/src/pool/mysql_pool/0voice/dbimpl/CMakeFiles/dbimpl.dir/MySQLPreparedStatement.cpp.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/c++",
+      "-I/home/chenqi1/cq-kvstore/src/pool/mysql_pool/0voice/dbimpl",
+      "-I/home/chenqi1/cq-kvstore/src/pool/mysql_pool/0voice/fmt/include",
+      "-I/usr/include/mysql",
+      "-c",
+      "-o",
+      "CMakeFiles/dbimpl.dir/MySQLThreading.cpp.o",
+      "/home/chenqi1/cq-kvstore/src/pool/mysql_pool/0voice/dbimpl/MySQLThreading.cpp"
+    ],
+    "directory": "/home/chenqi1/cq-kvstore/src/pool/mysql_pool/0voice/dbimpl",
+    "file": "/home/chenqi1/cq-kvstore/src/pool/mysql_pool/0voice/dbimpl/MySQLThreading.cpp",
+    "output": "/home/chenqi1/cq-kvstore/src/pool/mysql_pool/0voice/dbimpl/CMakeFiles/dbimpl.dir/MySQLThreading.cpp.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/c++",
+      "-I/home/chenqi1/cq-kvstore/src/pool/mysql_pool/0voice/dbimpl",
+      "-I/home/chenqi1/cq-kvstore/src/pool/mysql_pool/0voice/fmt/include",
+      "-I/usr/include/mysql",
+      "-c",
+      "-o",
+      "CMakeFiles/dbimpl.dir/QueryCallback.cpp.o",
+      "/home/chenqi1/cq-kvstore/src/pool/mysql_pool/0voice/dbimpl/QueryCallback.cpp"
+    ],
+    "directory": "/home/chenqi1/cq-kvstore/src/pool/mysql_pool/0voice/dbimpl",
+    "file": "/home/chenqi1/cq-kvstore/src/pool/mysql_pool/0voice/dbimpl/QueryCallback.cpp",
+    "output": "/home/chenqi1/cq-kvstore/src/pool/mysql_pool/0voice/dbimpl/CMakeFiles/dbimpl.dir/QueryCallback.cpp.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/c++",
+      "-I/home/chenqi1/cq-kvstore/src/pool/mysql_pool/0voice/dbimpl",
+      "-I/home/chenqi1/cq-kvstore/src/pool/mysql_pool/0voice/fmt/include",
+      "-I/usr/include/mysql",
+      "-c",
+      "-o",
+      "CMakeFiles/dbimpl.dir/QueryHolder.cpp.o",
+      "/home/chenqi1/cq-kvstore/src/pool/mysql_pool/0voice/dbimpl/QueryHolder.cpp"
+    ],
+    "directory": "/home/chenqi1/cq-kvstore/src/pool/mysql_pool/0voice/dbimpl",
+    "file": "/home/chenqi1/cq-kvstore/src/pool/mysql_pool/0voice/dbimpl/QueryHolder.cpp",
+    "output": "/home/chenqi1/cq-kvstore/src/pool/mysql_pool/0voice/dbimpl/CMakeFiles/dbimpl.dir/QueryHolder.cpp.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/c++",
+      "-I/home/chenqi1/cq-kvstore/src/pool/mysql_pool/0voice/dbimpl",
+      "-I/home/chenqi1/cq-kvstore/src/pool/mysql_pool/0voice/fmt/include",
+      "-I/usr/include/mysql",
+      "-c",
+      "-o",
+      "CMakeFiles/dbimpl.dir/QueryResult.cpp.o",
+      "/home/chenqi1/cq-kvstore/src/pool/mysql_pool/0voice/dbimpl/QueryResult.cpp"
+    ],
+    "directory": "/home/chenqi1/cq-kvstore/src/pool/mysql_pool/0voice/dbimpl",
+    "file": "/home/chenqi1/cq-kvstore/src/pool/mysql_pool/0voice/dbimpl/QueryResult.cpp",
+    "output": "/home/chenqi1/cq-kvstore/src/pool/mysql_pool/0voice/dbimpl/CMakeFiles/dbimpl.dir/QueryResult.cpp.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/c++",
+      "-I/home/chenqi1/cq-kvstore/src/pool/mysql_pool/0voice/dbimpl",
+      "-I/home/chenqi1/cq-kvstore/src/pool/mysql_pool/0voice/fmt/include",
+      "-I/usr/include/mysql",
+      "-c",
+      "-o",
+      "CMakeFiles/dbimpl.dir/Transaction.cpp.o",
+      "/home/chenqi1/cq-kvstore/src/pool/mysql_pool/0voice/dbimpl/Transaction.cpp"
+    ],
+    "directory": "/home/chenqi1/cq-kvstore/src/pool/mysql_pool/0voice/dbimpl",
+    "file": "/home/chenqi1/cq-kvstore/src/pool/mysql_pool/0voice/dbimpl/Transaction.cpp",
+    "output": "/home/chenqi1/cq-kvstore/src/pool/mysql_pool/0voice/dbimpl/CMakeFiles/dbimpl.dir/Transaction.cpp.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/c++",
+      "-I/home/chenqi1/cq-kvstore/src/pool/mysql_pool/0voice/dbimpl",
+      "-I/home/chenqi1/cq-kvstore/src/pool/mysql_pool/0voice/fmt/include",
+      "-I/usr/include/mysql",
+      "-c",
+      "-o",
+      "CMakeFiles/dbimpl.dir/Implementation/SakilaDatabase.cpp.o",
+      "/home/chenqi1/cq-kvstore/src/pool/mysql_pool/0voice/dbimpl/Implementation/SakilaDatabase.cpp"
+    ],
+    "directory": "/home/chenqi1/cq-kvstore/src/pool/mysql_pool/0voice/dbimpl",
+    "file": "/home/chenqi1/cq-kvstore/src/pool/mysql_pool/0voice/dbimpl/Implementation/SakilaDatabase.cpp",
+    "output": "/home/chenqi1/cq-kvstore/src/pool/mysql_pool/0voice/dbimpl/CMakeFiles/dbimpl.dir/Implementation/SakilaDatabase.cpp.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/c++",
+      "-I/home/chenqi1/cq-kvstore/src/pool/mysql_pool/0voice/dbimpl",
+      "-I/home/chenqi1/cq-kvstore/src/pool/mysql_pool/0voice/fmt/include",
+      "-I/usr/include/mysql",
+      "-c",
+      "-o",
+      "CMakeFiles/dbimpl.dir/Errors.cpp.o",
+      "/home/chenqi1/cq-kvstore/src/pool/mysql_pool/0voice/dbimpl/Errors.cpp"
+    ],
+    "directory": "/home/chenqi1/cq-kvstore/src/pool/mysql_pool/0voice/dbimpl",
+    "file": "/home/chenqi1/cq-kvstore/src/pool/mysql_pool/0voice/dbimpl/Errors.cpp",
+    "output": "/home/chenqi1/cq-kvstore/src/pool/mysql_pool/0voice/dbimpl/CMakeFiles/dbimpl.dir/Errors.cpp.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/c++",
+      "-I/home/chenqi1/cq-kvstore/src/pool/mysql_pool/0voice/dbimpl",
+      "-I/home/chenqi1/cq-kvstore/src/pool/mysql_pool/0voice/fmt/include",
+      "-I/usr/include/mysql",
+      "-c",
+      "-o",
+      "CMakeFiles/sync.dir/main.cpp.o",
+      "/home/chenqi1/cq-kvstore/src/pool/mysql_pool/0voice/example/sync/main.cpp"
+    ],
+    "directory": "/home/chenqi1/cq-kvstore/src/pool/mysql_pool/0voice/example/sync",
+    "file": "/home/chenqi1/cq-kvstore/src/pool/mysql_pool/0voice/example/sync/main.cpp",
+    "output": "/home/chenqi1/cq-kvstore/src/pool/mysql_pool/0voice/example/sync/CMakeFiles/sync.dir/main.cpp.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/c++",
+      "-I/home/chenqi1/cq-kvstore/src/pool/mysql_pool/0voice/dbimpl",
+      "-I/home/chenqi1/cq-kvstore/src/pool/mysql_pool/0voice/fmt/include",
+      "-I/usr/include/mysql",
+      "-c",
+      "-o",
+      "CMakeFiles/async.dir/main.cpp.o",
+      "/home/chenqi1/cq-kvstore/src/pool/mysql_pool/0voice/example/async/main.cpp"
+    ],
+    "directory": "/home/chenqi1/cq-kvstore/src/pool/mysql_pool/0voice/example/async",
+    "file": "/home/chenqi1/cq-kvstore/src/pool/mysql_pool/0voice/example/async/main.cpp",
+    "output": "/home/chenqi1/cq-kvstore/src/pool/mysql_pool/0voice/example/async/CMakeFiles/async.dir/main.cpp.o"
+  }
+]
