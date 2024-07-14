@@ -1,0 +1,1 @@
+/usr/bin/cc -g -rdynamic CMakeFiles/2_test_i++_threads.dir/2_test_i++_threads.c.o -o 2_test_i++_threads  -lpthread 

@@ -1,0 +1,1 @@
+/usr/bin/c++  -O0 -Wall -g -rdynamic CMakeFiles/4_test_lock_free_queue.dir/4_test_lock_free_queue.cpp.o -o 4_test_lock_free_queue  -lpthread 

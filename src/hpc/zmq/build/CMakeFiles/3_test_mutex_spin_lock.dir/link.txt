@@ -1,0 +1,1 @@
+/usr/bin/c++  -O0 -Wall -g -rdynamic CMakeFiles/3_test_mutex_spin_lock.dir/3_test_mutex_spin_lock.cpp.o -o 3_test_mutex_spin_lock  -lpthread 
