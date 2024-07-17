@@ -1,0 +1,148 @@
+
+user  root;
+worker_processes  1;
+
+#error_log    logs/error.log;
+#error_log  logs/error.log  notice;
+#error_log  logs/error.log  info;
+
+#pid        logs/nginx.pid;
+
+
+events {
+    worker_connections  1024;
+}
+
+
+http {
+    include       mime.types;
+    default_type  application/octet-stream;
+
+
+    sendfile        on;
+
+    keepalive_timeout  65;
+
+
+#   # 反向代理
+#     server {
+#         listen       80;
+#         server_name  ubuntu1.com;
+
+
+#         location / {
+#             proxy_pass http://ubuntu1.test.com;
+#         }
+
+#     }
+#     # 添加一个代理模块
+#     upstream ubuntu1.test.com
+#     {
+#         server 192.168.119.139:80;
+#     }
+
+#     server {
+#        listen       80;
+#        server_name  ubuntu2.com;
+
+#         location / {
+#             proxy_pass http://ubuntu2.test.com;
+#         }
+#     }
+
+#      # 添加一个代理模块
+#     upstream ubuntu2.test.com
+#     {
+#         server 192.168.119.140:80;
+#     }
+
+
+
+
+    # #负载均衡
+    # server {
+    #     listen       80;         # 客户端访问反向代理服务器, 代理服务器监听的端口
+    #     server_name  localhost;  # 客户端访问反向代理服务器, 需要一个域名
+    #     location / {
+    #         # 反向代理服务器转发指令, http:// 固定的头
+    #         proxy_pass http://linux.com;
+    #     }
+    #     location /hello/ {
+    #         # 反向代理服务器转发指令, http:// 固定的头
+    #         proxy_pass http://linux.com;
+    #     }
+    # 	location /upload/ {
+    #         # 反向代理服务器转发指令, http:// 固定的头
+    #         proxy_pass http://linux.com;
+    #     }
+
+    # }
+    # # 添加一个代理模块
+    # upstream linux.com
+    # {
+    #     server 192.168.119.139:80 weight=1;
+    #     server 192.168.119.140:80 weight=3;
+    # }
+
+
+
+
+    # #fastCGI
+    # server{
+    #     listen       80;
+    #     server_name  localhost;
+    #     location /upload/UploadAction {
+
+    #         # 转发这个数据, fastCGI进程
+    #         fastcgi_pass 192.168.119.134:1234;
+    #         # fastcgi.conf 和nginx.conf在同一级目录: /usr/local/nginx/conf
+    #         # 这个文件中定义了一些http通信的时候用到环境变量, 这些是通过nginx解析出http协议然后赋值的
+    #         include fastcgi.conf;
+    #     }
+
+    #     error_page   500 502 503 504  /50x.html;
+    #         location = /50x.html {
+    #             root   html;
+    #     }
+    # }
+
+
+
+    # #fastCGI_图床上传test
+    # server{
+    #     listen       80;
+    #     server_name  localhost;
+    #     location / {
+    #         root /home/chenqi1/cq-kvstore/resources/yundisk;
+    #         index  upload.html upload.htm;
+    #     }
+
+
+    #     location /upload/UploadAction {
+    #         # 转发这个数据, fastCGI进程
+    #         fastcgi_pass 192.168.119.134:1234;
+    #         include fastcgi.conf;
+    #     }
+    # }
+
+
+    #nginx+fastdfs   test
+    server{
+        listen       80;
+        server_name  localhost;
+
+        location /group1/M00/00/00 #首先可以模糊匹配，是url中一部分也可以
+        {
+            # 告诉服务器资源的位置
+            root /home/chenqi;
+            ngx_fastdfs_module; #启动一个fastdfs进程，能ngix与fastdfs通信
+        }
+        # location ~/group([0-9])/M([0-9])([0-9]) {
+        #     #root /home/chenqi1/fdfs_data/storage/data;
+        #     ngx_fastdfs_module;
+        # }
+
+    }
+
+
+}
